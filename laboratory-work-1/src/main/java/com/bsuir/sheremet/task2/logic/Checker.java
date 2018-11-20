@@ -24,7 +24,7 @@ public class Checker {
                 result = true;
             }
         }
-        
+
         return result;
     }
 }

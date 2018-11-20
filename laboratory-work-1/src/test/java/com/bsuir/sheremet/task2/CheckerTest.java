@@ -3,6 +3,7 @@ package com.bsuir.sheremet.task2;
 import com.bsuir.sheremet.task2.entity.Point;
 import com.bsuir.sheremet.task2.entity.Polygon;
 import com.bsuir.sheremet.task2.logic.Checker;
+import com.bsuir.sheremet.task2.util.PolygonCreator;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,11 +13,12 @@ import java.util.List;
 public class CheckerTest {
 
     private final static Checker checker = new Checker();
+    private final static PolygonCreator polygonCrator = new PolygonCreator();
 
     @Test
     public void shouldReturnTrueWhenPointInPolygon() {
 
-        Polygon polygon = createPolygon();
+        Polygon polygon = polygonCrator.createPolygon();
 
         Point point = new Point(1, 2);
 
@@ -27,27 +29,11 @@ public class CheckerTest {
     @Test
     public void shouldReturnFalseWhenPointNotInPolygon() {
 
-        Polygon polygon = createPolygon();
+        Polygon polygon = polygonCrator.createPolygon();
 
         Point point = new Point(7, 2);
 
         boolean result = checker.isPointInPolygon(point, polygon);
         Assert.assertFalse(result);
-    }
-
-    private Polygon createPolygon() {
-
-        List<Point> points = new ArrayList<>();
-
-        points.add(new Point(-4, 0));
-        points.add(new Point(-4, 5));
-        points.add(new Point(4, 5));
-        points.add(new Point(4,0));
-        points.add(new Point(6,0));
-        points.add(new Point(6, -3));
-        points.add(new Point(-6, -3));
-        points.add(new Point(-6, 0));
-
-        return new Polygon(points);
     }
 }

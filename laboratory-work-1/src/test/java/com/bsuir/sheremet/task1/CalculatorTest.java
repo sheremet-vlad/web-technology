@@ -1,6 +1,6 @@
 package com.bsuir.sheremet.task1;
 
-import com.bsuir.sheremet.task1.Calculator;
+import com.bsuir.sheremet.task1.logic.Calculator;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,10 +18,5 @@ public class CalculatorTest {
         double expected = 2.1;
         double actual = calculator.calculateExpression(X, Y);
         Assert.assertEquals(expected, actual, DELTA);
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void shouldReturnExceptionWhenArgumentEqualZero() {
-        calculator.calculateExpression(ILLEGAL_X, Y);
     }
 }
