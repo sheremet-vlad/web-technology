@@ -1,15 +1,16 @@
 package com.bsuir.sheremet.task1.run;
 
 import com.bsuir.sheremet.task1.logic.Calculator;
+import com.bsuir.sheremet.task1.util.Reader;
 
 import java.util.Scanner;
 
 public class Runner {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Reader reader = new Reader();
 
-        double x = in.nextDouble();
-        double y = in.nextDouble();
+        double x = reader.readDoubleNumber();
+        double y = reader.readDoubleNumber();
 
         Calculator calculator = new Calculator();
 

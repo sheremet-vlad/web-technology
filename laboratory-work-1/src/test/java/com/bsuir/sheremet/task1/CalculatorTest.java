@@ -8,7 +8,6 @@ public class CalculatorTest {
 
     private final static double X = 4;
     private final static double Y = 2;
-    private final static double ILLEGAL_X = 0;
     private final static double DELTA = 0.1;
 
     private Calculator calculator = new Calculator();
