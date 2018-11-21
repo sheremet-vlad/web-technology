@@ -11,7 +11,7 @@ public class ArrayCheckerTest {
     private final static ArrayChecker arrayChecker = new ArrayChecker();
 
     @Test
-    public void ShouldReturnIndexesWhenArrayContainPrimeNumbers() {
+    public void shouldReturnIndexesWhenArrayContainPrimeNumbers() {
         // act
         int[] sourceArray = { -7, 2, 3, 1, 0, -12, 9, 8, 10 };
         ArrayList<Integer> actual = arrayChecker.getPrimeNumbers(sourceArray);
@@ -21,7 +21,7 @@ public class ArrayCheckerTest {
     }
 
     @Test
-    public void ShouldReturnEmptyListWhenArrayIsEmpty() {
+    public void shouldReturnEmptyListWhenArrayIsEmpty() {
         int[] sourceArray = { /* EMPTY! */  };
         ArrayList<Integer> actual = arrayChecker.getPrimeNumbers(sourceArray);
         ArrayList<Integer> expected = new ArrayList<>(/* EMPTY! */);
@@ -30,7 +30,7 @@ public class ArrayCheckerTest {
     }
 
     @Test
-    public void checkArrayWithNegativeNumbersShouldReturnEmptyList() {
+    public void shouldReturnEmptyListWhenArrayWithNegativeNumbers() {
         int[] sourceArray = { -7, -2, -3, -10  };
         ArrayList<Integer> actual = arrayChecker.getPrimeNumbers(sourceArray);
         ArrayList<Integer> expected = new ArrayList<>(/* EMPTY! */);
