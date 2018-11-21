@@ -1,6 +1,6 @@
 package com.bsuir.sheremet.task3.run;
 
-import com.bsuir.sheremet.task3.calculate.Calculator;
+import com.bsuir.sheremet.task3.logic.Calculator;
 import com.bsuir.sheremet.task3.util.Reader;
 
 public class Runner {

@@ -1,6 +1,5 @@
-package com.bsuir.sheremet.task3;
+package com.bsuir.sheremet.task3.logic;
 
-import com.bsuir.sheremet.task3.calculate.Calculator;
 import org.junit.Assert;
 import org.junit.Test;
 

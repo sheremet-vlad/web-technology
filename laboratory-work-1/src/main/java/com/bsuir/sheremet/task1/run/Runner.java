@@ -3,8 +3,6 @@ package com.bsuir.sheremet.task1.run;
 import com.bsuir.sheremet.task1.logic.Calculator;
 import com.bsuir.sheremet.task1.util.Reader;
 
-import java.util.Scanner;
-
 public class Runner {
     public static void main(String[] args) {
         Reader reader = new Reader();

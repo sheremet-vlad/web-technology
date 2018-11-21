@@ -1,14 +1,10 @@
-package com.bsuir.sheremet.task2;
+package com.bsuir.sheremet.task2.logic;
 
 import com.bsuir.sheremet.task2.entity.Point;
 import com.bsuir.sheremet.task2.entity.Polygon;
-import com.bsuir.sheremet.task2.logic.Checker;
 import com.bsuir.sheremet.task2.util.PolygonCreator;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class CheckerTest {
 

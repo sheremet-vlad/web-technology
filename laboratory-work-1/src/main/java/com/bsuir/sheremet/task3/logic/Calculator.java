@@ -1,4 +1,4 @@
-package com.bsuir.sheremet.task3.calculate;
+package com.bsuir.sheremet.task3.logic;
 
 public class Calculator {
     public double[][] calculateTangent(Double lowerBound, Double higherBound, Double step) throws IllegalArgumentException {
