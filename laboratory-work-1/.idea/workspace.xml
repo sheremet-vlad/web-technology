@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d516e01c-ace2-466c-9c34-3fe706953815" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task6/logic/MatrixCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task6/run/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task6/util/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task6/logic/MatrixCreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/logic/ShellSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/run/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/util/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task7/logic/ShellSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task4/logic/ArrayCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task4/logic/ArrayCheckerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,35 +21,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="49" />
+          <entry key="java" value="57" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="57" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1728" />
+          <entry key="java" value="2191" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1728" />
+          <entry key="JAVA" value="2191" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="11" />
         </counts>
@@ -58,7 +58,50 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/run/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task7/logic/ShellSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/util/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/logic/ShellSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,6 +141,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task6/run/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task6/logic/MatrixCreatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task4/logic/ArrayCheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/util/Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/logic/ShellSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/run/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task7/logic/ShellSortTest.java" />
       </list>
     </option>
   </component>
@@ -174,6 +221,41 @@
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
               <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bsuir" type="462c0819:PsiDirectoryNode" />
+              <item name="sheremet" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bsuir" type="462c0819:PsiDirectoryNode" />
+              <item name="sheremet" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bsuir" type="462c0819:PsiDirectoryNode" />
+              <item name="sheremet" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,6 +295,17 @@
             <path>
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
               <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bsuir" type="462c0819:PsiDirectoryNode" />
+              <item name="sheremet" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -226,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542844096970" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542845049655" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,6 +351,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bsuir.sheremet.task6.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsuir.sheremet.task7.run.Runner" />
+      <module name="laboratorywork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bsuir.sheremet.task7.run.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,10 +424,12 @@
       <item itemvalue="JUnit.All in laboratorywork1" />
       <item itemvalue="JUnit.CheckerTest" />
       <item itemvalue="Application.Runner (1)" />
+      <item itemvalue="Application.Runner (2)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in laboratorywork1" />
+        <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner (1)" />
         <item itemvalue="JUnit.CheckerTest" />
         <item itemvalue="Application.Runner" />
@@ -340,6 +448,7 @@
       <updated>1542756741825</updated>
       <workItem from="1542756751989" duration="12776000" />
       <workItem from="1542842253323" duration="1769000" />
+      <workItem from="1542844080673" duration="936000" />
     </task>
     <servers />
   </component>
@@ -376,12 +485,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14545000" />
+    <option name="totallyTimeSpent" value="15481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1407" height="558" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29250187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +500,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6910377" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23045821" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,13 +531,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/run.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/calculate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task1/Calculator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/util/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task1/logic/run/Runner.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task1/logic/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -448,25 +551,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1666">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#12755#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14433" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/run/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/logic/Calculator.java">
@@ -487,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task4/util/ArrayCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task4/logic/ArrayCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -633,6 +710,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task4/util/ArrayCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/util/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task3/run/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/logic/ShellSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/util/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task7/run/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task7/logic/ShellSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
