@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d516e01c-ace2-466c-9c34-3fe706953815" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/logic/ArrayConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/run/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/util/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task8/logic/ArrayConcatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/logic/BasketWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/run/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/util/BasketCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task9/logic/BasketWorkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,28 +32,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="63" />
+          <entry key="java" value="69" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="69" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="2696" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="3653" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2696" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="3653" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -60,19 +62,84 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/logic/ArrayConcat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/run/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/run/Runner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task9/logic/BasketWorkerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="319">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/util/BasketCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Ball.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Basket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/logic/BasketWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/logic/ArrayConcat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/run/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task8/logic/ArrayConcatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Basket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Ball.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/util/BasketCrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/run/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/logic/BasketWorker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task9/logic/BasketWorkerTest.java" />
       </list>
     </option>
   </component>
@@ -210,7 +283,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bsuir" type="462c0819:PsiDirectoryNode" />
               <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +294,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bsuir" type="462c0819:PsiDirectoryNode" />
               <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
@@ -232,8 +306,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bsuir" type="462c0819:PsiDirectoryNode" />
               <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +318,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bsuir" type="462c0819:PsiDirectoryNode" />
               <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,19 +370,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bsuir" type="462c0819:PsiDirectoryNode" />
               <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laboratory-work-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bsuir" type="462c0819:PsiDirectoryNode" />
-              <item name="sheremet" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="task9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laboratorywork1" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +388,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542846979962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542849561377" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,7 +517,7 @@
       <updated>1542756741825</updated>
       <workItem from="1542756751989" duration="12776000" />
       <workItem from="1542842253323" duration="1769000" />
-      <workItem from="1542844080673" duration="2938000" />
+      <workItem from="1542844080673" duration="5322000" />
     </task>
     <servers />
   </component>
@@ -492,10 +554,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17483000" />
+    <option name="totallyTimeSpent" value="19867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -784,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/logic/ArrayConcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task4/logic/ArrayCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -822,6 +878,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task8/logic/ArrayConcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/entity/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/util/BasketCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/run/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsuir/sheremet/task9/logic/BasketWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bsuir/sheremet/task9/logic/BasketWorkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
